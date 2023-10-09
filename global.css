@@ -1,5 +1,8 @@
 nav{
-
+  display: flexbox;
+  background-color: gray;
+  border: 50%;
+  
 }
 .bar{
 
