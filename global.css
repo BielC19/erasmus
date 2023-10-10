@@ -92,6 +92,16 @@ footer{
     justify-content: center;
 
 }
+footer button img{
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: var(--text-color);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+}
 .contact{
     color: var(--onyx);
     background-color: var(--fons_div);

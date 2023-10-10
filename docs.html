@@ -4,30 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="docs.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 <body>
-    <nav>
-        <div class="bar">
-            <ul>
-                <li><a href="/index.html"><img src="{{ asset('images/logo_blanco.png') }}" alt="">Home</a></li>
-                <li><a href="/m_leter.html"><img src="{{ asset('images/logo_blanco.png') }}" alt="">Motivation letter</a></li>
-                <li><a href="/"><img src="{{ asset('images/logo_blanco.png') }}" alt=""></a></li>
-                <li><a href="/"><img src="{{ asset('images/logo_blanco.png') }}" alt=""></a></li>
-            </ul>
+    <div class="ordre">
+        <div class="shadow">
+            <nav>
+                <div class="bar">
+                    <ul>
+                        <li><a id="primer"href="/index.html"><img src="{{ asset('images/logo_blanco.png') }}" alt="">Home</a></li>
+                        <li><a id="segon"href="/m_leter.html"><img src="{{ asset('images/logo_blanco.png') }}" alt="">Motivation letter</a></li>
+                        <li><a href="/"><img src="{{ asset('images/logo_blanco.png') }}" alt=""></a></li>
+                        <li><a href="/"><img src="{{ asset('images/logo_blanco.png') }}" alt=""></a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
     <header>
-        <object data="/Biel Costa Samso - KCVS school report.pdf" 
-        type="application/pdf" width="500px" height="500px" style="transform: rotateX(0deg);">
-        <p>Alternative text for PDF</p>
-</object>
+        <div class="tot">
+            <object data="/Biel Costa Samso - KCVS school report.pdf" 
+            type="application/pdf" width="500px" height="500px" style="transform: rotateX(0deg);">
+            <p>Alternative text for PDF</p>
+            </object>
+            <img src="TY_project_ireland.jpeg" alt="TY_project">
+            <img src="mckdonald_academy.jpeg" alt="">
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+            <object data="" type=""></object>
+        </div>
     </header>
+        
+
     <footer>
         <div class="contact">
             <h2>Contact me by:</h2>
-            Mail: <a href="bielcostasamso@insalba.cat">bielcostasamso@insalba.cat</a> or <a href="bcostasamso@insalba.cat">bcostasamso@insalba.cat</a>
-        </div>
+            <button id="mail1" onclick="copiarAlPortapapeles('email1')"><img src="/mailLogo.png" alt=""> Mail 1</button><p hidden id="email1">bielcostasamso@insalba.cat</p>
+            <button onclick="copiarAlPortapapeles('email2')" id="mail2"><img alt="" src="/mailLogo.png"> Mail 2</button><p hidden id="email2">bcostasamso@insalba.cat</p>
+            <button onclick="copiarAlPortapapeles('phone')"  id="tel"><img src="/telLogo.png" alt=""> Phone</button><p hidden id="phone">644346495</p>
+        </div>    
     </footer>
+    <script src="scripts.js"></script>
+</div>
 </body>
 </html>
