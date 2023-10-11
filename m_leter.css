@@ -9,6 +9,7 @@ header p{
 h1{
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 82px;
+    margin-left: 0.7em;
 }
 header{
     margin-right: 6em;
