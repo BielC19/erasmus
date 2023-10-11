@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;700&family=Raleway&display=swap');
 
-header p{
+header {
     font-family: 'Hanken Grotesk', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -16,14 +16,38 @@ header{
     margin-bottom: 1em;
     margin-left: 6em;
 }
+h2{
+    margin-left: 2em;
+    font-weight: bolder;
+}
 .tot{
     text-align: justify;
     margin-left: 4em;
     margin-right: 4em;
     margin-bottom: 3em;
-    
+    overflow: hidden;
 }
-object, img{
+object{
     width: 500px;
     height:  500px;
+}
+.tot div{
+    display:inline-block;
+}
+#img1{
+    width: auto;
+    height: 400px;
+}
+#img2{
+    width: auto;
+    height: 300px;
+}
+#img3{
+    rotate: 89deg;
+    margin-left: 100px;
+
+}
+.img3{
+    height: 500px;
+    width: auto;
 }
