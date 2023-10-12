@@ -79,7 +79,11 @@ nav a {
     font-size: var(--text-size-s);
     font-weight: bolder;
 }
+
 #segon{
+    margin-left: 3em;
+}
+#tercer{
     margin-left: 3em;
     margin-right: 3em;
 }
