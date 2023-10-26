@@ -55,9 +55,7 @@ object{
     width: auto;
 }
 @media screen and (max-width: 600px) {
-    nav{
-        margin-left: 15px;
-    }
+
     header {
         font-family: 'Hanken Grotesk', sans-serif;
         font-family: 'Raleway', sans-serif;
@@ -112,5 +110,8 @@ object{
     .img3{
         height: 500px;
         width: auto;
+    }
+    #ftoErasmus {
+        width: 100%;
     }
 }

@@ -147,7 +147,8 @@ footer button img{
         margin-bottom: 1em;
     }
     nav{
-        display: block;
+        display: flex;
+        flex-wrap: nowrap;
         justify-content: center;
         width: auto;
         height: 4em;
@@ -167,12 +168,17 @@ footer button img{
     ul {
         display: flex;
         grid-template-rows: 2em;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
+        
     
     }
     li {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: min-content;
         list-style: none;
     
     }
