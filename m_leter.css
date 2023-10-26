@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;700&family=Raleway&display=swap');
 
 header p{
-    font-family: 'Hanken Grotesk', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
@@ -28,4 +27,39 @@ header{
 p span{
     color:red;
     font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+    nav{
+        margin-left: 30px;
+    }
+    header p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+    }
+    h1{
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 64px;
+        margin-left: 0.4em;
+    }
+    section{
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 3em;
+    }
+    header{
+        width: 100%;
+        margin-right: 6em;
+        margin-bottom: 1em;
+        margin-left: 6em;
+    }
+    .tot{
+        text-align: justify;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    p span{
+        color:red;
+        font-size: 19px;
+    }
 }
