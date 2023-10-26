@@ -16,8 +16,11 @@ header{
     margin-bottom: 1em;
     margin-left: 6em;
 }
+h3{
+    margin-left: 2em;
+}
 h2{
-    margin-left: 1.7em;
+    margin-left: 1em;
     font-weight: bolder;
 }
 .tot{
@@ -63,21 +66,27 @@ object{
     h1{
         font-family: 'Hanken Grotesk', sans-serif;
         font-size: 64px;
+        margin-left: 0.4em;
     }
     header{
-        margin-right: 6em;
-        margin-bottom: 1em;
-        margin-left: 6em;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    h3{
+        margin-left: 2em;
+        margin-right: 1em;
     }
     h2{
-        margin-left: 1.7em;
+        margin-left: 1em;
         font-weight: bolder;
     }
     .tot{
         text-align: justify;
-        margin-left: 4em;
-        margin-right: 4em;
-        margin-bottom: 3em;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
         overflow: hidden;
     }
     object{
@@ -97,7 +106,7 @@ object{
     }
     #img3{
         rotate: 89deg;
-        margin-left: 100px;
+        margin-left: 0;
     
     }
     .img3{
